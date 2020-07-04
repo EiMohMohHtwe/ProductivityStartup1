@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/homebackground"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imvLogo"
+        android:layout_width="400dp"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/logo" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        >
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_producer_photo"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@mipmap/producer"
+                    android:layout_marginLeft="@dimen/button_margin_size"
+                    android:layout_marginTop="@dimen/button_margin_size"
+                    android:shadowColor="#5CA86C"
+                    android:shadowDx="2"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    />
+
+                <Button
+                    android:id="@+id/btn_buyer_photo"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@mipmap/buyer"
+                    android:layout_marginLeft="@dimen/button_margin_size"
+                    android:layout_marginRight="@dimen/button_margin_size"
+                    android:layout_marginTop="@dimen/button_margin_size"
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnManufacturer"
+                    android:layout_height="wrap_content"
+                    android:layout_width="160dp"
+                    android:text="ကုန်ထုတ်မည့်သူ"
+                    android:textSize="@dimen/title_size"
+                    android:layout_marginLeft="@dimen/button_margin_size"
+                    android:background="@drawable/button_pressing"
+                    />
+
+                <Button
+                    android:id="@+id/btnBuyer"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="ကုန်ဝယ်မည့်သူ"
+                    android:textSize="@dimen/title_size"
+                    android:layout_marginLeft="@dimen/button_margin_size"
+                    android:background="@drawable/button_pressing"
+                    />
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+    
+    <Button
+        android:id="@+id/btn_help"
+        android:text="အသုံးပြုနည်းလမ်းညွှန်"
+        android:textColor="#b2362929"
+        android:textSize="22dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#b3dc38"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="3"
+        android:layout_marginTop="540dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="56dp"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>

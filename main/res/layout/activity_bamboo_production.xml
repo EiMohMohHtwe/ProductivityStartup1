@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BambooProduction">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgVbambooslideshow"
+                android:layout_width="match_parent"
+                android:layout_margin="3dp"
+                android:layout_height="208dp"
+                android:background="@mipmap/making_bamproducts"
+                android:layout_marginLeft="10dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="900dp">
+
+                <ImageView
+                    android:id="@+id/imgvLampphoto"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/bamboo_lamp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="238dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgVbambooslideshow"
+                    />
+
+                <TextView
+                    android:id="@+id/tvLamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="ဝါးလုံးမီးအိမ်"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgvLampphoto"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Lamp_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="180dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="110dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgflowerBasket"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="268dp"
+                    android:background="@mipmap/bamboo_flower_basket"
+                    app:layout_constraintTop_toBottomOf="@+id/imgvLampphoto"
+                    />
+
+                <TextView
+                    android:id="@+id/tvflowerBasket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="၀ါးပန်းခြင်း"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgflowerBasket"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/flowerBasket_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="440dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="145dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgvBookShelf"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/bamboo_bookshelf"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="370dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgflowerBasket"
+                    />
+
+                <TextView
+                    android:id="@+id/tvBookShelf"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="ဝါးစာဖတ်စင်"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="370dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgbtnFlowerBasket"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bookshelf_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="580dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="180dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgPhotoFrame"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/bamboo_photo_frame"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="470dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgvBookShelf"
+                    />
+
+                <TextView
+                    android:id="@+id/tvPhotoFrame"
+                    android:layout_width="174dp"
+                    android:layout_height="48dp"
+                    android:text="ဓာတ်ပုံဘောင်"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="470dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgPhotoFrame"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/photoframe_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="710dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="220dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgFruitBasket"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/bamboo_fruit_basket"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="570dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgPhotoFrame"
+                    />
+
+                <TextView
+                    android:id="@+id/tvFruitBasket"
+                    android:layout_width="174dp"
+                    android:layout_height="48dp"
+                    android:text="သစ်သီးထည့်ခြင်း"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="570dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgFruitBasket"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/fruitbasket_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="850dp"
+                android:layout_marginLeft="180dp"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellingForm">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="700dp">
+
+            <ImageButton
+                android:id="@+id/imgbtncameraphoto"
+                android:layout_width="137dp"
+                android:layout_height="127dp"
+                android:background="@mipmap/cameraphoto"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                />
+
+            <EditText
+                android:id="@+id/edtProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:hint="ကုန်ပစ္စည်းအမည်"
+                android:layout_marginTop="180dp"
+                />
+
+            <EditText
+                android:id="@+id/edtProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:hint="ကုန်ပစ္စည်းတန်ဖိုး"
+                android:layout_marginTop="250dp"
+                />
+
+            <EditText
+                android:id="@+id/edtProductTrademark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:hint="ကုန်ပစ္စည်းထောက်ခံချက်အမှတ်"
+                android:layout_marginTop="320dp"
+                />
+
+            <TextView
+                android:id="@+id/tvProductType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="အမျိုးအစား"
+                android:textSize="@dimen/Sellingtextsize"
+                android:textStyle="bold"
+                android:textColor="@color/fontcolor"
+                android:paddingLeft="20dp"
+                android:paddingTop="380dp"
+                app:layout_constraintTop_toBottomOf="@+id/edtProductPrice"
+                />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <RadioGroup
+                    android:id="@+id/rdogpProductType"
+                    android:paddingTop="410dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/rdobtnFood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="စားသောက်ကုန်"
+                        android:textSize="@dimen/Sellingtextsize"
+                        android:checked="true" />
+
+                    <RadioButton
+                        android:id="@+id/rdobtnCosmetic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/Sellingtextsize"
+                        android:checked="true"
+                        android:text="အလှကုန်" />
+                    <RadioButton
+                        android:id="@+id/rdobtnBamboo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/Sellingtextsize"
+                        android:checked="true"
+                        android:text="ဝါးအသုံးအဆောင်" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="530dp"
+                android:text="@string/SellingStandard"
+                android:textSize="@dimen/Sellingtextsize"
+                android:textStyle="bold"
+                android:textColor="@color/fontcolor"
+                />
+
+            <Button
+                android:id="@+id/btnselling"
+                android:text="ရောင်းချမည်"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="200dp"
+                android:layout_height="52dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="615dp"
+                android:layout_marginLeft="80dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

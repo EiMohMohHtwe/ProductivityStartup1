@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Types">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btnvoiceStart"
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:padding="16dp"
+                    android:layout_marginTop="@dimen/fav_margin"
+                    android:layout_marginLeft="@dimen/fav_margin"
+                    android:layout_marginRight="@dimen/fav_margin"
+                    android:background="#fff"
+                    android:text="@string/listen_voiceStart"
+                    android:textSize="@dimen/detail_size"
+                    android:drawableRight="@mipmap/speaker"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/btnvoiceStop"
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:padding="16dp"
+                    android:layout_marginTop="@dimen/fav_margin"
+                    android:layout_marginRight="@dimen/fav_margin"
+                    android:background="#fff"
+                    android:text="@string/listen_voiceStop"
+                    android:textSize="@dimen/detail_size"
+                    android:drawableRight="@mipmap/pause"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_types_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/title_size"
+                android:padding="@dimen/fav_margin"
+                android:text="မှတ်ပုံတင်လုပ်ငန်း အမျိုးအစားများ"
+                android:layout_marginTop="@dimen/fav_margin"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/title_size"
+                android:layout_marginTop="@dimen/fav_margin"
+                android:paddingRight="@dimen/fav_margin"
+                android:paddingBottom="@dimen/fav_margin"
+                android:paddingLeft="@dimen/fav_margin"
+                android:text="@string/types_body"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

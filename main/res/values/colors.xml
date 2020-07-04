@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8cc830</color>
+    <color name="colorPrimaryDark">#c5e1a5</color>
+    <color name="colorAccent">#c5e1a5</color>
+    <color name="fontcolor">#000000</color>
+    <color name="button_not_pressed">#b7e483</color>
+    <color name="button_pressed">#E0F8EC</color>
+    <color name="card_background">#eee</color>
+    <color name="buyercolor">#f1f8e9</color>
+</resources>

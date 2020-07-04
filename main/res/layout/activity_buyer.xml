@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/fav_margin"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@color/buyercolor">
+
+                <ImageView
+                    android:id="@+id/imvHtanyat"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginTop="@dimen/fav_margin"
+                    android:layout_weight="1"
+                    android:background="@mipmap/treefood"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="14dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvHtanyatName"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/buyercolor"
+                        android:src="#f1f8e9"
+                        android:layout_marginRight="@dimen/fav_margin"
+                        android:paddingLeft="@dimen/fav_margin"
+                        android:paddingRight="@dimen/fav_margin"
+                        android:paddingTop="@dimen/fav_margin"
+                        android:text="ကြက်သွန်ဖြူပဲချောင်း "
+                        android:textSize="@dimen/title_size"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvHtanyatDescription"
+                        android:layout_width="190dp"
+                        android:layout_height="150dp"
+                        android:src="#eee"
+                        android:text="အမှတ်တံဆိပ် -Treefood\nဈေးနှုန်း      -၂၅၀၀ကျပ်\nဆက်သွယ်ရန်-\n၀၉-၇၉၃၁၀၇၇၂၅\n"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnHtanyatCall"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/button_not_pressed"
+                android:src="#f1f8e9"
+                android:drawableRight="@mipmap/phone"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="@dimen/fav_margin"
+                android:paddingLeft="36dp"
+                android:paddingRight="14dp"
+                android:text="@string/phone_call"
+                android:textSize="@dimen/detail_size"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@color/buyercolor">
+
+                <ImageView
+                    android:id="@+id/imvTeamix"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:background="@mipmap/teamix"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginTop="@dimen/fav_margin"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="14dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTeamixname"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/buyercolor"
+                        android:src="#f1f8e9"
+                        android:layout_marginRight="@dimen/fav_margin"
+                        android:paddingLeft="@dimen/fav_margin"
+                        android:paddingRight="@dimen/fav_margin"
+                        android:paddingTop="@dimen/fav_margin"
+                        android:text="တီးမစ်"
+                        android:textSize="@dimen/title_size"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvTeamixDescription"
+                        android:layout_width="190dp"
+                        android:layout_height="150dp"
+                        android:src="#eee"
+                        android:text="အမှတ်တံဆိပ် -Royal Myanmar\nဈေးနှုန်း  -၁၀၀၀၀ကျပ်\nဆက်သွယ်ရန်-\n၀၉-၇၈၉၃၁၃၁၅၅\n"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTeamixCall"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/button_not_pressed"
+                android:src="#f1f8e9"
+                android:drawableRight="@mipmap/phone"
+                android:layout_marginTop="434dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="@dimen/fav_margin"
+                android:paddingLeft="36dp"
+                android:paddingRight="14dp"
+                android:text="@string/phone_call"
+                android:textSize="@dimen/detail_size"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="504dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@color/buyercolor">
+
+                <ImageView
+                    android:id="@+id/imvKeychange"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:background="@mipmap/bambookeychange"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginTop="@dimen/fav_margin"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="14dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvKeychangeTitle"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/buyercolor"
+                        android:src="#f1f8e9"
+                        android:layout_marginRight="@dimen/fav_margin"
+                        android:paddingLeft="@dimen/fav_margin"
+                        android:paddingRight="@dimen/fav_margin"
+                        android:paddingTop="@dimen/fav_margin"
+                        android:text="ဝါးကီးချိန်း"
+                        android:textSize="@dimen/title_size"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvKeychangeDescription"
+                        android:layout_width="190dp"
+                        android:layout_height="150dp"
+                        android:src="#eee"
+                        android:text="အမှတ်တံဆိပ် -MyanmarBamboo\nဈေးနှုန်း- ၁၀၀၀ကျပ်\nဆက်သွယ်ရန်-\n၀၈၁-၂၀၁၁၀၅"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnKeyChangeCall"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/button_not_pressed"
+                android:src="#f1f8e9"
+                android:drawableRight="@mipmap/phone"
+                android:layout_marginTop="678dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="@dimen/fav_margin"
+                android:paddingLeft="36dp"
+                android:paddingRight="14dp"
+                android:text="@string/phone_call"
+                android:textSize="@dimen/detail_size"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="748dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@color/buyercolor">
+
+                <ImageView
+                    android:id="@+id/imvHat"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:background="@mipmap/hat"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginTop="@dimen/fav_margin"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="14dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvHatTitle"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/buyercolor"
+                        android:src="#f1f8e9"
+                        android:layout_marginRight="@dimen/fav_margin"
+                        android:paddingLeft="@dimen/fav_margin"
+                        android:paddingRight="@dimen/fav_margin"
+                        android:paddingTop="@dimen/fav_margin"
+                        android:text="ဝါးခမောက်"
+                        android:textSize="@dimen/title_size"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvHatDescription"
+                        android:layout_width="190dp"
+                        android:layout_height="150dp"
+                        android:src="#eee"
+                        android:text="အမှတ်တံဆိပ် -\nBamboo Hat\nဈေးနှုန်း -၃၀၀၀ကျပ်\nဆက်သွယ်ရန်-\n၀၈၁-၂၀၁၁၀၅\n"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnHatCall"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/button_not_pressed"
+                android:src="#f1f8e9"
+                android:drawableRight="@mipmap/phone"
+                android:layout_marginTop="918dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="@dimen/fav_margin"
+                android:paddingLeft="36dp"
+                android:paddingRight="14dp"
+                android:text="@string/phone_call"
+                android:textSize="@dimen/detail_size"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="988dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@color/buyercolor">
+
+                <ImageView
+                    android:id="@+id/imvLipstick"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:background="@mipmap/bella"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginTop="@dimen/fav_margin"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="14dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvLipstickTitle"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/buyercolor"
+                        android:src="#f1f8e9"
+                        android:layout_marginRight="@dimen/fav_margin"
+                        android:paddingLeft="@dimen/fav_margin"
+                        android:paddingRight="@dimen/fav_margin"
+                        android:paddingTop="@dimen/fav_margin"
+                        android:text="နှုတ်ခမ်းနီ "
+                        android:textSize="@dimen/title_size"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvLipstickDescription"
+                        android:layout_width="190dp"
+                        android:layout_height="150dp"
+                        android:src="#eee"
+                        android:text="အမှတ်တံဆိပ် -bella\nဈေးနှုန်း -၃၈၅၀ကျပ်\nဆက်သွယ်ရန်-\n၀၉-၅၉၁၂၆၆\n"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLipstickCall"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/button_not_pressed"
+                android:src="#f1f8e9"
+                android:drawableRight="@mipmap/phone"
+                android:layout_marginTop="1162dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="@dimen/fav_margin"
+                android:paddingLeft="36dp"
+                android:paddingRight="14dp"
+                android:text="@string/phone_call"
+                android:textSize="@dimen/detail_size"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="1232dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@color/buyercolor">
+
+                <ImageView
+                    android:id="@+id/imvBrush"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:background="@mipmap/brush"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginTop="@dimen/fav_margin"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="14dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvBrushTitle"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/buyercolor"
+                        android:src="#f1f8e9"
+                        android:layout_marginRight="@dimen/fav_margin"
+                        android:paddingLeft="@dimen/fav_margin"
+                        android:paddingRight="@dimen/fav_margin"
+                        android:paddingTop="@dimen/fav_margin"
+                        android:text="ဘရက်(ရှ်)"
+                        android:textSize="@dimen/title_size"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvBrushDescription"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:src="#eee"
+                        android:text="အမှတ်တံဆိပ် -bella\nဈေးနှုန်း -၅၀၀၀ကျပ်\nဆက်သွယ်ရန်-\n၀၉-၇၈၅၀၈၃၄၇\n"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBurshCall"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/button_not_pressed"
+                android:src="#f1f8e9"
+                android:drawableRight="@mipmap/phone"
+                android:layout_marginTop="1406dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="@dimen/fav_margin"
+                android:paddingLeft="36dp"
+                android:paddingRight="14dp"
+                android:text="@string/phone_call"
+                android:textSize="@dimen/detail_size"
+                />
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>

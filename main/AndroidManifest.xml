@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team14">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/outapplogo"
+        android:label="ကုန်ချောထုတ်စို့"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Manufacturer" />
+        <activity android:name=".FoodProduction" />
+        <activity android:name=".CallingJson" />
+        <activity android:name=".CosmeticProduction" />
+        <activity android:name=".ProductionStandard" />
+        <activity android:name=".ProductSelling" />
+        <activity android:name=".SellingForm" />
+        <activity android:name=".TrademarkLicense" />
+        <activity android:name=".HomeMade" />
+        <activity android:name=".BambooProduction" />
+        <activity android:name=".CallingJsonCosmetic" />
+        <activity android:name=".CallingJsonBamboo" />
+        <activity android:name=".Documents" />
+        <activity android:name=".Types" />
+        <activity android:name=".Advantages" />
+        <activity android:name=".Panishment" />
+        <activity android:name=".RawMaterialandReadyMade" />
+        <activity android:name=".Location" />
+        <activity android:name=".Machine" />
+        <activity android:name=".Employee" />
+        <activity android:name=".Clean" />
+        <activity android:name=".KeepData" />
+        <activity android:name=".HelpGuide" />
+        <activity android:name=".Buyer" />
+        <activity android:name=".MyDatabase"></activity>
+    </application>
+
+</manifest>

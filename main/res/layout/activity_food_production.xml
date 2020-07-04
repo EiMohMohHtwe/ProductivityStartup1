@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodProduction">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/foodToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgVfruitslideshow"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:background="@mipmap/food_product"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="900dp">
+
+                <ImageView
+                    android:id="@+id/imgvApplecakephoto"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/applecake"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="235dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgVfruitslideshow"
+                    />
+
+                <TextView
+                    android:id="@+id/tvAppleCake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="ပန်းသီးကိတ်"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgVapplecakephoto"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/applecake_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="110dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgVgrapejuicephoto"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="263dp"
+                    android:background="@mipmap/lemon_juice"
+                    app:layout_constraintTop_toBottomOf="@+id/imgVfruitslideshow"
+                    />
+
+                <TextView
+                    android:id="@+id/tvLemonJuice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="သံပုရာဖျော်ရည််"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgVgrapejuicephoto"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/LemonJuice_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="440dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="145dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgvTomatoSauce"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/tomato_sauce"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="367dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgVgrapejuicephoto"
+                    />
+
+                <TextView
+                    android:id="@+id/tvtomatosaucephoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="ခရမ်းချဉ်သီးဆော့"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="370dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgVtomatosaucephoto"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/TomatoSauce_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="580dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="180dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgPanCake"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/pineapple_juice"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="470dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgVgrapejuicephoto"
+                    />
+
+                <TextView
+                    android:id="@+id/tvpancake"
+                    android:layout_width="174dp"
+                    android:layout_height="48dp"
+                    android:text="နာနတ်ဖျော်ရည်"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="470dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgVtomatosaucephoto"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/pineapple_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="710dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="220dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgcookie"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/punkin_jam"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="570dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgVgrapejuicephoto"
+                    />
+
+                <TextView
+                    android:id="@+id/tvcookie"
+                    android:layout_width="174dp"
+                    android:layout_height="48dp"
+                    android:text="ကျောက်ဖရုံယို"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="570dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgVtomatosaucephoto"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/pumkim_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="850dp"
+                android:layout_marginLeft="180dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="260dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgVPotato"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/potato"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="660dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOil"
+                    />
+
+                <TextView
+                    android:id="@+id/tvPotato"
+                    android:layout_width="174dp"
+                    android:layout_height="60dp"
+                    android:text="အာလူးပေါင်းခြောက်ပြုလုပ်ခြင်း"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="665dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgYogurtScrub"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/potato_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="990dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="300dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgVGarlic"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/garlic"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="760dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOil"
+                    />
+
+                <TextView
+                    android:id="@+id/tvGarlic"
+                    android:layout_width="174dp"
+                    android:layout_height="60dp"
+                    android:text="ကြက်သွန်ဖြူ / နီပေါင်းကြော်ြ့ပုလုပ်ခြင်း"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="765dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgYogurtScrub"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/garlic_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="1130dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="340dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgVEggAndPeanut"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/peanut"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="860dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOil"
+                    />
+
+                <TextView
+                    android:id="@+id/tvEggAndPeanut"
+                    android:layout_width="174dp"
+                    android:layout_height="60dp"
+                    android:text="ဂျုံဖြင့် ကြက်ဥမြေပဲပွ ကြော်ပြုလုပ်ခြင်း"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="860dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgYogurtScrub"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/eggandpeanut_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="1260dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="380dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgVBanna"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:background="@mipmap/banna"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="960dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOil"
+                    />
+
+                <TextView
+                    android:id="@+id/tvBanna"
+                    android:layout_width="174dp"
+                    android:layout_height="60dp"
+                    android:text="ငှက်ပျောပေါင်းခြောက်ပြုလုပ်နည်း"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="960dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgYogurtScrub"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/banna_btn"
+                android:text="ပြုလုပ်နည်း"
+                android:textColor="#4D4D4D"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#e4ea72"
+                android:shadowDx="2"
+                android:shadowDy="0"
+                android:shadowRadius="7"
+                android:layout_marginTop="1400dp"
+                android:layout_marginLeft="180dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

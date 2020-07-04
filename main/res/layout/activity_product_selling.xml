@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductSelling">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="အမည်"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView_user"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_user"
+        android:layout_marginTop="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="လျှိုု့ဝှက်နံပါတ်"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView_password"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_password"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/attempts_text"
+        android:id="@+id/textView_attempts"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/editText_password"
+        android:layout_marginTop="59dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView_attemt_Count"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView_attempts"
+        android:layout_below="@+id/editText_password"
+        android:layout_marginTop="59dp"
+        />
+
+    <Button
+        android:text="ဝင်မည်။"
+        android:id="@+id/button_login"
+        android:textColor="#4D4D4D"
+        android:textSize="20sp"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#e4ea72"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="7"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView_attempts"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>

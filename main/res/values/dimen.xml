@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fav_margin">16dp</dimen>
+    <dimen name="top_margin">26dp</dimen>
+    <dimen name="Sellingtextsize">20dp</dimen>
+    <dimen name="Mleftandright">17dp</dimen>
+    <dimen name="detail_size">18dp</dimen>
+    <dimen name="title_size">20dp</dimen>
+    <dimen name="button_margin_size">14dp</dimen>
+
+</resources>

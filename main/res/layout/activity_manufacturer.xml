@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Manufacturer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="2">
+
+            <TableRow>
+
+                <LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_food_photo"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@mipmap/btnfood"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:layout_marginTop="@dimen/button_margin_size"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_cosmetic_photo"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@mipmap/cosmetic"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:layout_marginRight="@dimen/button_margin_size"
+                        android:layout_marginTop="@dimen/button_margin_size"
+                        />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnFood"
+                        android:layout_height="wrap_content"
+                        android:layout_width="160dp"
+                        android:text="စားသောက်ကုန်များ"
+                        android:textSize="@dimen/title_size"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:background="@drawable/button_pressing"
+                        />
+
+                    <Button
+                        android:id="@+id/btnCosmetic"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="အလှကုန်များ"
+                        android:textSize="@dimen/title_size"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:background="@drawable/button_pressing"
+                        />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+                <LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_bamboo_photo"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@mipmap/bamboo"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:layout_marginTop="@dimen/button_margin_size"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_register_photo"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@mipmap/registration"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:layout_marginRight="@dimen/button_margin_size"
+                        android:layout_marginTop="@dimen/button_margin_size"
+                        />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnBamboo"
+                        android:layout_height="wrap_content"
+                        android:layout_width="160dp"
+                        android:text="ဝါးထုတ်ကုန်များ"
+                        android:textSize="@dimen/title_size"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:background="@drawable/button_pressing"
+                        />
+
+                    <Button
+                        android:id="@+id/btnRegister"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="စံသတ်မှတ်ချက်များ"
+                        android:textSize="@dimen/title_size"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:background="@drawable/button_pressing"
+                        />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+                <LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_standard_photo"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@mipmap/registerform"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:layout_marginTop="@dimen/button_margin_size"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_business_photo"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@mipmap/business"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:layout_marginRight="@dimen/button_margin_size"
+                        android:layout_marginTop="@dimen/button_margin_size"
+                        />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnStandard"
+                        android:layout_height="wrap_content"
+                        android:layout_width="160dp"
+                        android:text="မှတ်ပုံတင်ခြင်း"
+                        android:textSize="@dimen/title_size"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:background="@drawable/button_pressing"
+                        android:layout_marginBottom="@dimen/button_margin_size"
+                        />
+
+                    <Button
+                        android:id="@+id/btnBusiness"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="ထုတ်ကုန်ရောင်းခြင်း"
+                        android:textSize="@dimen/title_size"
+                        android:layout_marginLeft="@dimen/button_margin_size"
+                        android:background="@drawable/button_pressing"
+                        android:layout_marginBottom="@dimen/button_margin_size"
+                        />
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
